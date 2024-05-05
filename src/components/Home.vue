@@ -2,7 +2,7 @@
   <div name="home" class="w-full h-screen bg-gray-400" :style="{ backgroundImage: `url(${Fondo})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }">
     <div class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full text-center">
       <p class="text-white font-bold font-sans text-shadow">Hi! I'm</p>
-      <h1 class="text-4xl sm:text-9xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-600 whitespace-nowrap overflow-hidden">
+      <h1 class="text-4xl sm:text-9xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-600 whitespace-nowrap overflow-hidden ">
         Pablo Ciruelos
       </h1>
       <h2 class="text-2xl sm:text-6xl font-bold text-white text-shadow">Full Stack Developer</h2>
@@ -29,7 +29,5 @@ const goToAboutMe = () => {
 </script>
 
 <style scoped>
-.text-shadow {
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
+
 </style>

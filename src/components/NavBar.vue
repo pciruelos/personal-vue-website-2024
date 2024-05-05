@@ -6,11 +6,11 @@
     </div>
 
     <div class="hidden md:flex">
-      <ul class="hidden md:flex font-medium font-sans">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#project">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul class="hidden md:flex font-medium font-sans text-white">
+        <li class="p-1"><a href="#home">Home</a></li>
+        <li class="p-1"><a href="#aboutme">About Me</a></li>
+        <li class="p-1"><a href="#project">Portfolio</a></li>
+        <li class="p-1"><a href="#contact">Contact</a></li>
       </ul>
     </div>
 
