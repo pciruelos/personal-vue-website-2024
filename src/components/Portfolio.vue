@@ -1,14 +1,5 @@
 <template>
-  <div
-    name="project"
-    class="bg-gray-500 w-full md:h-fit text-white font-sans"
-    :style="{
-      backgroundImage: `url(${Fondo})`,
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-    }"
-  >
-    <!-- Section title -->
+  <div class="bg-gray-500 w-full md:h-fit text-white font-sans" name="project" :style="{backgroundImage: `url(${Fondo})`,backgroundRepeat:'no-repeat',backgroundSize: 'cover' }">
     <div>
       <p class="text-center px-10 font-bold py-2 text-blue-500 text-shadow">
         Some previous and present works
@@ -28,9 +19,9 @@
         />
       </vue-marquee-slider>
     </div>
-    <div class="pb-5">
+    <div class="pb-5 flex justify-center">
       <button
-        class="rounded-lg group text-white px-6 py-3 my-2 flex items-center bg-gradient-to-r from-green-400 to-purple-600"
+        class="hoverEffect rounded-lg group text-white px-6 py-3 my-2 flex items-center bg-gradient-to-r from-green-400 to-purple-600"
       >
         <a href="https://github.com/pciruelos">More Projects</a>
       </button>
@@ -47,5 +38,12 @@ import "../../node_modules/vue3-marquee-slider/dist/style.css";
 </script>
 
 <style scoped>
-/* Add your component specific styles here */
+.hoverEffect {
+  transition: all 10s ease;
+}
+
+.hoverEffect:hover {
+  background: linear-gradient(to right, #00b170, #47008a);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
 </style>

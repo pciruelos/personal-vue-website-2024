@@ -1,11 +1,11 @@
 <template>
-  <div name="aboutme" class="text-[#f88379] bg-black w-full">
-    <p class="text-center px-10 font-bold py-2 font-sans text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-600 text-shadow-white">My History</p>
-    <h1
-      class="text-center px-10 text-4xl pb-8 underline underline-offset-4 text-white font-bold font-sans italic text-shadow-white"
-    >
+  <div name="aboutme" class=" bg-black w-full">
+    <!-- Aboutme header -->
+    <p class="boxSizeCustom mx-auto text-center px-10 font-bold py-2 text-xl font-sans text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-600">My History</p>
+    <h1 class="text-center px-10 text-4xl pb-8 underline underline-offset-4 text-white font-bold font-sans italic text-shadow-white">
       About Me
     </h1>
+    <!-- Aboutme content -->
     <div class="grid gap-4 md:grid-cols-2 pl-10 pr-10 max-w-[1400px] mx-auto">
       <img
         src="../assets/pablociruelos_working2.png"
@@ -39,14 +39,13 @@
         </div>
       </div>
     </div>
-    <h1
-      class="text-center text-4xl pb-10 pt-10 m-5 underline underline-offset-4 text-white font-bold font-sans italic"
-    >
+    <!-- Skills header -->
+    <p class="boxSizeCustom mx-auto pt-10 text-center text-xl italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-600">Main Stack and Competences</p>
+    <h1 class="text-center text-4xl m-5 underline underline-offset-4 text-white font-bold font-sans italic">
       Skills:
     </h1>
-    <div
-      class="grid gap-4 md:grid-cols-2 pl-10 pr-10 items-center text-center font-sans"
-    >
+    <!-- Skills content -->
+    <div class="grid gap-4 md:grid-cols-2 pl-10 pr-10 items-center text-center font-sans">
       <div class="max-w-md mx-auto">
         <img src="../assets/vue2_pablociruelos.png" class="hover:scale-125 duration-500" alt="vue js" />
       </div>
@@ -62,5 +61,7 @@
 </script>
 
 <style scoped>
-
+.boxSizeCustom {
+  max-width: 350px;
+}
 </style>
