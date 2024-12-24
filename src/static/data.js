@@ -1,7 +1,7 @@
 export const projects  = [
     {
         id:1,
-        title:'MERN stack App',
+        title:'MERN App',
         description:'',
         info:'',
         demo:"https://tacho-maps-mern.vercel.app/",
@@ -10,7 +10,7 @@ export const projects  = [
         img:'https://res.cloudinary.com/cirucloud/image/upload/v1662470756/React%20Personal%20Web/Projects%20Img/1.png',
     },{
         id:2,
-        title:'Redux Toolkit App Example',
+        title:'Redux App Example',
         description:'',
         info:'',
         demo:"https://redux-toolkit-app-ciru.herokuapp.com/",
@@ -19,7 +19,7 @@ export const projects  = [
         img:'https://res.cloudinary.com/cirucloud/image/upload/v1662470759/React%20Personal%20Web/Projects%20Img/2.png',
     },{
         id:3,
-        title:'MERN app - Img Uploader',
+        title:'MERN - Img Uploader',
         description:'',
         info:'',
         demo:"https://ciru-mern-img-web.herokuapp.com/",
@@ -37,7 +37,7 @@ export const projects  = [
         img:'https://res.cloudinary.com/cirucloud/image/upload/v1662470757/React%20Personal%20Web/Projects%20Img/4.png',
     },{
         id:5,
-        title:'Personal Blog with NEXTjs',
+        title:'Blog with NEXTjs',
         description:'',
         info:'',
         demo:"https://personal-next-blog-pi.vercel.app/",
@@ -64,7 +64,7 @@ export const projects  = [
         img:'https://res.cloudinary.com/cirucloud/image/upload/v1662470764/React%20Personal%20Web/Projects%20Img/7.png',
     },{
         id:8,
-        title:'Next Personal Old Web',
+        title:'Next Old Web',
         description:'',
         info:'',
         demo:"https://ciruelos-next-web.herokuapp.com/",

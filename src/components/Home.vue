@@ -6,10 +6,10 @@
         Pablo Ciruelos
       </h1>
       <h2 class="text-2xl sm:text-6xl font-bold text-white text-shadow">Full Stack Developer</h2>
-      <p class="text-xl italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-600">
+      <p class="pt-5 text-xl italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-600">
         "where creativity & passion meets coding"
       </p>
-      <div>
+      <div class="pt-5">
         <button @click="goToAboutMe" class="rounded-lg group text-white px-6 py-3 my-2 flex items-center bg-gradient-to-r from-green-400 to-purple-600">
           Go Check!
           <span class="group-hover:rotate-90 duration-300">
